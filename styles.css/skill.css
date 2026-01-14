@@ -1,0 +1,31 @@
+#skills {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.professional-skills {
+  max-width: 1800px;
+  margin-top: 4rem;
+}
+
+.professional-skills ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.professional-skills ul li {
+  list-style: none;
+}
+
+.professional-skills ul li img {
+  height: 100px;
+  width: 300px;
+}
+.professional-skills li span {
+  display: block;
+  margin-top: 0.5rem;
+  text-align: center;
+}

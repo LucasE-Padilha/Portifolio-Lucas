@@ -1,0 +1,110 @@
+#home {
+  min-height: 75vh;
+  margin-top: 5rem;
+}
+
+.home-content {
+  height: 43.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.home-text {
+  flex: 1;
+}
+
+.home-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.home-image img {
+  width: 31.25rem;
+  height: 31.25rem;
+  margin-left: 18.75rem;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #ff0000;
+  box-shadow: 0 0 30px rgba(255, 0, 0, 0.35);
+}
+
+.card-home {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.cv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4.25rem;
+  width: 13.875rem;
+  background-color: red;
+  border-radius: 10px;
+  margin-top: 2.375rem;
+  font-family: var(--ff-sans);
+  border: 1px solid white;
+  box-shadow: 0 0 30px rgba(255, 0, 0, 0.35);
+  transition: transform 0.2s ease;
+}
+
+.cv:hover {
+  transform: scale(1.15);
+}
+
+.cv a {
+  text-decoration: none;
+  padding: 24px 55px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 4.25rem;
+  width: 11rem;
+  margin-top: 2.375rem;
+  border-radius: 10px;
+  border: 1px solid white;
+  box-shadow: 0 0 30px rgba(255, 0, 0, 0.35);
+  transition: transform 0.2s ease;
+}
+
+.contact:hover {
+  transform: scale(1.15);
+}
+
+.contact a {
+  text-decoration: none;
+  color: inherit;
+  padding: 25px 42px;
+}
+
+.social-media {
+  display: flex;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.social-media div {
+  transition: transform 0.2s ease;
+}
+
+.social-media div:hover {
+  transform: scale(1.25);
+}
+
+.social-media div a {
+  color: white;
+}
+
+.social-media div a ion-icon {
+  width: 2rem;
+  height: 2rem;
+}

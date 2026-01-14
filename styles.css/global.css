@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --ff-sans: "Inter", system-ui, sans-serif;
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-lg: 1.25rem;
+  --fs-xl: 1.5rem;
+  --fs-2xl: 2.5rem;
+  --text-primary: white;
+  --text-secondary: #e6e6e6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(../assets/bg-image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--ff-sans);
+  color: var(--text-primary);
+}
+
+h1 {
+  font-size: var(--fs-2xl);
+}
+
+h2 {
+  font-size: var(--fs-xl);
+}
+
+p {
+  font-family: var(--ff-sans);
+  font-size: var(--fs-lg);
+  color: var(--text-secondary);
+}
+
+a,
+li,
+span {
+  font-family: var(--ff-sans);
+  color: var(--text-primary);
+}

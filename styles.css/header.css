@@ -1,0 +1,31 @@
+header {
+  margin-top: 2.5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 4rem;
+  list-style: none;
+}
+
+.nav-links li a {
+  font-size: var(--fs-lg);
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-links li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  font-size: var(--fs-lg);
+}
